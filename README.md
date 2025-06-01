@@ -1,6 +1,25 @@
 
-This repository contains the implememtation of the Hierarchical clustering algorithm.
-The explanation about the algorithm and the code is inside the .py file.
+🔍 Overview
+Hierarchical clustering builds a hierarchy of clusters represented by a dendrogram.
+This project uses the Agglomerative (bottom-up) approach, where each data point starts in its own cluster, and pairs of clusters are merged based on proximity.
+
+🛠️ Key Concepts
+Agglomerative Clustering: Merges clusters iteratively based on shortest distance.
+
+Ward's Method: Linkage criteria that minimizes within-cluster variance.
+
+Dendrogram: A tree-like diagram to determine the optimal number of clusters.
+
+📦 Libraries Used
+scikit-learn
+
+matplotlib
+
+pandas
+
+numpy
+
+scipy.cluster.hierarchy
 output:
 dendogram
 
