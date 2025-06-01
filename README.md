@@ -29,4 +29,5 @@ Cluster:
 
 ![image](https://github.com/SharmaShivani12/HC_implementation-/assets/116270548/c4d387c4-85e6-4218-82bd-fbf6fb9556c8)
 
-credit/shootout: Machine Learning A-Z: AI, Python & R (udemy) 
+🙌 Credit / Shoutout
+This project is inspired by the Machine Learning A-Z™: AI, Python & R course on Udemy. Huge thanks to the instructors for making complex concepts easy to understand!
