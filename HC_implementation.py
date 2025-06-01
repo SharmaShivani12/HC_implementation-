@@ -1,17 +1,4 @@
-'''
-In this section we are going to implement the hierarichical clustering algorithm.
-Hierarchical clustering is a method of cluster analysis which seeks to build a hierarchy of clusters. 
-In general, the strategy is to create a tree of clusters called a dendrogram, where individual elements each start in their own cluster, and pairs of clusters are merged as one moves up the hierarchy.
-Two types of HC:Agglomerative (Bottom-Up) and Divisive (Top-Down)
-The key operation in hierarchical agglomerative clustering is to repeatedly combine the two nearest clusters into a larger cluster. 
-There are different ways to define the distance (or similarity) between clusters, known as linkage criteria.
 
-For dendogram implementation we will use the library :import scipy.cluster.hierarchy
-Also we will use the linkage criteria Ward's Method.We are going to perform agglomerative HC(library: from sklearn.cluster import AgglomerativeClustering)
-Ward’s Method: This approach minimizes the total within-cluster variance.
- At each step, the pair of clusters with the minimum between-cluster distance are merged.
-
-'''
 
 # Importing the libraries
 import numpy as np
